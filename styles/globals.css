@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "thunder";
+  src: local("thunder"), url(../public/fonts/thunder/Thunder-BoldLC.ttf);
+}
+
+@font-face {
+  font-family: "thunder-medium";
+  src: local("thunder-medium"), url(../public/fonts/thunder/Thunder-MediumLC.ttf);
+}
+
+@font-face {
+  font-family: "magilio-regular";
+  src: local("magilio-regular"), url(../public/fonts/magilio/MagilioRegular.ttf);
+}
+
+.menu{
+    /* height: calc(100vh - var(--title)); */
+     /* height: 100vh;  */
+    /* width:100vw; */ 
+   /* display: block; */
+     /* top:0; */
+    /* z-index:1;  */
+    /* box-sizing: border-box; */
+    /* display: none; */
+}
+
+@tailwind utilities;
