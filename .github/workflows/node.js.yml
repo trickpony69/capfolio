@@ -28,9 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    - run: touch ./sites/.nojekyll
+    - run: touch ./out/.nojekyll
    
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: sites # The folder the action should deploy.
+        folder: out # The folder the action should deploy.
