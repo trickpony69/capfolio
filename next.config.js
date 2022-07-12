@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: './',
-  trailingSlash: true
+  trailingSlash: true,
+  basePath: "/capfolio",
+  assetPrefix: "/capfolio",
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
