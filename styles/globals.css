@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "thunder";
-  src: local("thunder"), url('https://fonts.cdnfonts.com/s/69001/Thunder Bold.woff');
+  src: local("thunder"), url('/out/fonts/thunder/Thunder-BoldLC.ttf');
 }
 
 @font-face {
