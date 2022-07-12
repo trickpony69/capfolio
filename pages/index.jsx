@@ -73,7 +73,7 @@ export default function Home() {
             <div className={clsx("px-4 pt-24 px-4", { "hidden": open == 1 })}>
                 <p className="text-3xl text-cap-darkGrey border-b border-cap-darkGrey font-thunder-medium">PROJECTS</p>
                 <ul className="">
-                    <a className="block py-4 font-magilio-regular text-4xl border-b border-cap-darkGrey" href="/healthyfood">Healthyfood</a>
+                    <a className="block py-4 font-magilio-regular text-4xl border-b border-cap-darkGrey" href="/healthyfood.html">Healthyfood</a>
                     <a className="block py-4 font-magilio-regular text-4xl border-b border-cap-darkGrey" href="/muse">Muse</a>
                     <a className="block py-4 font-magilio-regular text-4xl border-b border-cap-darkGrey">Agp</a>
                     <a className="block py-4 font-magilio-regular text-4xl border-b border-cap-darkGrey">Emergency</a>
@@ -81,6 +81,6 @@ export default function Home() {
                     <a className="block py-4 font-magilio-regular text-4xl">Clap</a>
                 </ul>
             </div>
-        </div >
+        </div>
     )
 }
