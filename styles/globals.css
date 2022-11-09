@@ -3,28 +3,28 @@
 
 @font-face {
   font-family: "thunder";
-  src: local("thunder"), url('/out/fonts/thunder/Thunder-BoldLC.ttf');
+  src: local("thunder"), url('/fonts/thunder/Thunder-BoldLC.ttf');
 }
 
 @font-face {
   font-family: "thunder-medium";
-  src: local("thunder-medium"), url('/out/fonts/thunder/Thunder-MediumLC.ttf');
+  src: local("thunder-medium"), url('/fonts/thunder/Thunder-MediumLC.ttf');
 }
 
 @font-face {
   font-family: "magilio-regular";
-  src: local("magilio-regular"), url('/out/fonts/magilio/MagilioRegular.ttf');
+  src: local("magilio-regular"), url('/fonts/magilio/MagilioRegular.ttf');
 }
 
-.menu{
-    /* height: calc(100vh - var(--title)); */
-     /* height: 100vh;  */
-    /* width:100vw; */ 
-   /* display: block; */
-     /* top:0; */
-    /* z-index:1;  */
-    /* box-sizing: border-box; */
-    /* display: none; */
+.menu {
+  /* height: calc(100vh - var(--title)); */
+  /* height: 100vh;  */
+  /* width:100vw; */
+  /* display: block; */
+  /* top:0; */
+  /* z-index:1;  */
+  /* box-sizing: border-box; */
+  /* display: none; */
 }
 
 @tailwind utilities;
