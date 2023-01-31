@@ -16,8 +16,8 @@ function NextProject(props) {
             <span className="block py-8 border-t-2 border-black"></span>
 
             <div className="font-thunder leading-[5rem]">
-                <p className="text-[6.5rem] font-extrabold uppercase">next</p>
-                <p className="text-[6.5rem] font-extrabold uppercase">project?</p>
+                <p className="text-[6rem] font-extrabold uppercase">next</p>
+                <p className="text-[6rem] font-extrabold uppercase">project?</p>
             </div>
 
 

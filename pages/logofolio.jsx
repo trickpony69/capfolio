@@ -14,8 +14,8 @@ function Tags() {
     {
         name: "cdc",
         source: "degusteremo.png",
-        width: 416,
-        height: 100,
+        width: 330,
+        height: 90,
     },
     {
         name: "recordz",

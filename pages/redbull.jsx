@@ -29,8 +29,8 @@ function Redbull() {
 
             <p className="mr-8 p-4 py-6 text-4xl font-thunder-medium">Webapp designed for an italian event by Redbull for the launch of their Organics brand.</p>
 
-            <Image src="/assets/redbull_1.png" width="615" height="410" />
-            <Image src="/assets/redbull_2.png" width="900" height="3200" />
+            <Image src="/assets/redbull/1.png" width="615" height="410" />
+            <Image src="/assets/redbull/3.png" width="900" height="3200" />
 
             <div className="mx-auto w-[75%]">
                 <VideoMockup source="/assets/redbull/mockup.mp4" />

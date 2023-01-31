@@ -33,7 +33,9 @@ function voiello() {
             <Image src="/assets/voiello/2.png" width="900" height="600" objectFit="cover" />
             <Image src="/assets/voiello/3.png" width="800" height="900" objectFit="cover" />
 
-            <VideoMockup source="/assets/voiello/mockup.mp4" />
+            <div className="mx-auto w-[75%]">
+                <VideoMockup source="/assets/voiello/mockup.mp4" />
+            </div>
 
             <NextProject prev="/redbull" />
 

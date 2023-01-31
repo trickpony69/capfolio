@@ -36,23 +36,23 @@ function nhood() {
             <div className="m-6">
                 <p className="font-thunder-medium text-3xl">Custom icon set.</p>
 
-                <div className="py-4 grid grid-cols-3 gap-10">
-                    <div className="flex items-center justify-center w-28 h-28  rounded-2xl bg-[#CEF432]">
+                <div className="py-4 grid grid-cols-3 gap-x-2 gap-y-6">
+                    <div className="flex items-center justify-center w-26 h-26 rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_1.png" width="64" height="64" />
                     </div>
-                    <div className="flex items-center justify-center w-28 h-28 text-center rounded-2xl bg-[#CEF432]">
+                    <div className="flex items-center justify-center w-26 h-26 text-center rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_2.png" width="64" height="64" />
                     </div>
-                    <div className="flex items-center justify-center w-28 h-28 text-center rounded-2xl bg-[#CEF432]">
+                    <div className="flex items-center justify-center w-26 h-26 text-center rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_3.png" width="64" height="64" />
                     </div>
-                    <div className="flex items-center justify-center w-28 h-28 text-center rounded-2xl bg-[#CEF432]">
+                    <div className="flex items-center justify-center w-26 h-26 text-center rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_4.png" width="64" height="64" />
                     </div>
-                    <div className="flex items-center justify-center w-28 h-28 text-center rounded-2xl bg-[#CEF432]">
+                    <div className="flex items-center justify-center w-26 h-26 text-center rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_5.png" width="64" height="64" />
                     </div>
-                    <div className="flex items-center justify-center w-28 h-28 text-center rounded-2xl bg-[#CEF432]">
+                    <div className="flex items-center justify-center w-26 h-26 text-center rounded-2xl bg-[#CEF432]">
                         <Image src="/assets/nhood/icon_6.png" width="64" height="64" />
                     </div>
                 </div>
