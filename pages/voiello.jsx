@@ -1,4 +1,4 @@
-import Tag from "../components/tag";
+import Tag from "../components/Tag";
 import Image from "next/image";
 import NextProject from "../components/NextProject";
 import Link from "next/link";

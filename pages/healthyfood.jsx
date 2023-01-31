@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NextProject from "../components/NextProject";
-import Tag from "../components/tag";
+import Tag from "../components/Tag";
 import VideoMockup from "../components/VideoMockup";
 
 function healthyfood() {
