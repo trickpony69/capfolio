@@ -67,8 +67,9 @@ function Menu() {
                 <div id="big-name" className="relative">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 11.93" className="w-full fill-cap-acid"><g id="Livello_1-2"><path className="cls-1" d="M0,.08C32.07,7.82,65.55,11.93,100,11.93S167.93,7.82,200,.08v-.08H0V.08Z" /></g></svg>
 
+                    <p className={clsx("float-right mt-2 mr-4 text-3xl font-thunder-medium text-cap-blue underline", { "hidden": open })} onClick={() => setOpen(prev => !prev)}>ABOUT ME</p>
+
                     <div className="mt-4 px-4">
-                        <p className={clsx("float-right mt-2 mr-4 text-3xl font-thunder-medium text-cap-blue underline", { "hidden": open })} onClick={() => setOpen(prev => !prev)}>ABOUT ME</p>
                         <div className="leading-[5rem] text-[6.5rem]">
                             <p className={clsx("font-thunder ", { "pt-8": open })}>ANDREA</p>
                             <p className="font-thunder">CAPPELLARI</p>
