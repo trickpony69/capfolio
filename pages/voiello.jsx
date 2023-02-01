@@ -37,7 +37,7 @@ function voiello() {
                 <VideoMockup source="/assets/voiello/mockup.mp4" />
             </div>
 
-            <NextProject prev="/redbull" />
+            <NextProject prev="/nhood" next="/logofolio" />
 
             <Footer />
         </div>

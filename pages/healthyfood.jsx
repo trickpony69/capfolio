@@ -39,7 +39,7 @@ function healthyfood() {
 
             <p className="p-6 text-5xl font-thunder-medium">MyCIA - App</p>
             <Image src="/assets/healthyfood/2.png" width="461" height="638" objectFit="cover" />
-            <Image src="/assets/healthyfood/3.png" width="461" height="930" objectFit="cover" />
+            <Image src="/assets/healthyfood/3.png" width="461" height="1200" objectFit="cover" />
             <div className="text-center">
                 <p className="uppercase text-3xl font-thunder-medium text-[#86827E]">app download</p>
                 <p className="uppercase text-8xl font-thunder text-[#28536B]">200k</p>

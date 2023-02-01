@@ -36,7 +36,7 @@ function Redbull() {
                 <VideoMockup source="/assets/redbull/mockup.mp4" />
             </div>
 
-            <NextProject prev="/nhood" next="/voiello" />
+            <NextProject prev="/healthyfood" next="/nhood" />
 
             <Footer />
         </div>
