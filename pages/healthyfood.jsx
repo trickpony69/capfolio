@@ -50,7 +50,7 @@ function healthyfood() {
 
             <VideoMockup source="assets/healthyfood//mockup.mp4" />
 
-            <div className="text-center">
+            <div className="text-center pb-4">
                 <p className="uppercase text-3xl font-thunder-medium text-[#86827E]">monthly users</p>
                 <p className="uppercase text-8xl font-thunder text-[#28536B]">110k</p>
             </div>

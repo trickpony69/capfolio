@@ -28,7 +28,7 @@ function voiello() {
 
             <Image src="/assets/voiello/1.png" width="500" height="650" objectFit="cover" />
 
-            <p className="p-4 text-4xl font-thunder-medium">Illustration: Marimo©</p>
+            <p className="p-4 text-2xl font-thunder-medium">Illustration: Marimo<sup>©</sup></p>
 
             <Image src="/assets/voiello/2.png" width="900" height="600" objectFit="cover" />
             <Image src="/assets/voiello/3.png" width="800" height="900" objectFit="cover" />

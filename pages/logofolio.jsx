@@ -9,7 +9,7 @@ function Tags() {
         name: "clap",
         source: "clap.png",
         width: 124,
-        height: 140,
+        height: 165,
     },
     {
         name: "cdc",
@@ -51,7 +51,7 @@ function Tags() {
     return (
         <div className="m-6 space-y-6">
             {logos.map((logo, i) =>
-                <div className="h-72 flex items-center justify-center text-center border-2 border-[#AFAFAF] rounded-lg" key={i}>
+                <div className="max-w-96 h-96 flex items-center justify-center text-center border-2 border-[#AFAFAF] rounded-lg" key={i}>
                     <Image src={`/assets/logofolio/${logo.source}`} width={logo.width} height={logo.height} />
                 </div>
             )}
