@@ -60,7 +60,7 @@ function Menu() {
                                 I work on projects from the starting idea to the final product, working with developers team through the process. I cooperate with the marketing team to study the most suitable communication and promotion for the products created.
                             </p>
 
-                            <a className="block mt-4 text-2xl text-gray-400 font-thunder-medium underline">Download CV</a>
+                            <a className="block mt-4 text-2xl text-gray-400 font-thunder-medium underline" href="assets/andrea_cappellari_cv.pdf" target="_blank">Download CV</a>
                         </div>}
                 </motion.div>
 
