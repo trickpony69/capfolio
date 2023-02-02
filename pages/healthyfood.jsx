@@ -48,7 +48,7 @@ function healthyfood() {
 
             <p className="p-6 text-5xl font-thunder-medium">MyCIA - Website</p>
 
-            <VideoMockup source="assets/healthyfood//mockup.mp4" />
+            <img src="assets/healthyfood/mockup.gif" />
 
             <div className="text-center pb-4">
                 <p className="uppercase text-3xl font-thunder-medium text-[#86827E]">monthly users</p>
