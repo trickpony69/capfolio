@@ -5,7 +5,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import VideoMockup from "../components/VideoMockup";
 
-function nhood() {
+function Nhood() {
     return (
         <div id="page" className="bg-cap-grey">
             <div className="pt-6 px-6">
@@ -72,4 +72,4 @@ function nhood() {
     );
 }
 
-export default nhood;
+export default Nhood;

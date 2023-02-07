@@ -59,7 +59,7 @@ function Tags() {
     );
 }
 
-function logofolio() {
+function Logofolio() {
     return (
         <div id="page" className="bg-cap-grey">
             <div className="pt-6 px-6">
@@ -79,4 +79,4 @@ function logofolio() {
     );
 }
 
-export default logofolio;
+export default Logofolio;

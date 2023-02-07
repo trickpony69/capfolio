@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "../components/Footer";
 import NextProject from "../components/NextProject";
 import Tag from "../components/Tag";
-import VideoMockup from "../components/VideoMockup";
 
-function healthyfood() {
+function Healthyfood() {
     return (
         <div id="page" className="bg-cap-grey">
             <div className="pt-6 px-6">
@@ -57,9 +57,9 @@ function healthyfood() {
 
             <NextProject next="/redbull" />
 
-            <p id="copy-right" className="text-center py-2 border-t-2 border-black">Developed with care by <a className="underline">Michele Clerici</a></p>
+            <Footer />
         </div>
     );
 }
 
-export default healthyfood;
+export default Healthyfood;

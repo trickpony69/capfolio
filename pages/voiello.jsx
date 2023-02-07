@@ -3,10 +3,9 @@ import Image from "next/image";
 import NextProject from "../components/NextProject";
 import Link from "next/link";
 import Footer from "../components/Footer";
-import { useEffect } from "react";
 import VideoMockup from "../components/VideoMockup";
 
-function voiello() {
+function Voiello() {
     return (
         <div id="page" className="bg-cap-grey">
             <div className="pt-6 px-4">
@@ -44,4 +43,4 @@ function voiello() {
     );
 }
 
-export default voiello;
+export default Voiello;
