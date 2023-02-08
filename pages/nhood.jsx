@@ -8,7 +8,7 @@ import VideoMockup from "../components/VideoMockup";
 function Nhood() {
     return (
         <div id="page" className="bg-cap-grey">
-            <div className="pt-6 px-6">
+            <div className="block md:hidden pt-6 px-6">
                 <Link href="/home"><Image className="animate-[spin_4s_infinite]" src="/icons/menu.svg" width="56" height="56" /></Link>
             </div>
 

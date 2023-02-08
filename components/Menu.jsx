@@ -91,11 +91,11 @@ function Menu() {
             <div className={clsx("pt-8 px-4", { "hidden": open == 1 })}>
                 <p className="text-3xl text-cap-darkGrey border-b border-cap-darkGrey font-thunder-medium">PROJECTS</p>
                 <ul>
-                    <Link href="healthyfood"><a className={clsx({ "bg-cap-acid": url.match("healthyfood") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Healthyfood</a></Link>
-                    <Link href="redbull"><a className={clsx({ "bg-cap-acid": url.match("redbull") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Redbull</a></Link>
-                    <Link href="nhood"><a className={clsx({ "bg-cap-acid": url.match("nhood") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>NHOOD</a></Link>
-                    <Link href="voiello"><a className={clsx({ "bg-cap-acid": url.match("voiello") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Voiello</a></Link>
-                    <Link href="logofolio"><a className={clsx({ "bg-cap-acid": url.match("logofolio") }, "block py-4 font-thunder-medium text-4xl")} href="/logofolio">Logofolio</a></Link>
+                    <Link href="healthyfood"><a className={clsx({ "px-4 bg-cap-acid": url.match("healthyfood") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Healthyfood</a></Link>
+                    <Link href="redbull"><a className={clsx({ "px-4 bg-cap-acid": url.match("redbull") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Redbull</a></Link>
+                    <Link href="nhood"><a className={clsx({ "px-4 bg-cap-acid": url.match("nhood") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>NHOOD</a></Link>
+                    <Link href="voiello"><a className={clsx({ "px-4 bg-cap-acid": url.match("voiello") }, "block py-4 font-thunder-medium text-4xl border-b border-cap-darkGrey")}>Voiello</a></Link>
+                    <Link href="logofolio"><a className={clsx({ "px-4 bg-cap-acid": url.match("logofolio") }, "block py-4 font-thunder-medium text-4xl")} href="/logofolio">Logofolio</a></Link>
                 </ul>
             </div>
         </div>
