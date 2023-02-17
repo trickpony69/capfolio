@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 
+@layer base {
+  body {
+    cursor: url("/cursor.svg") 16 16, pointer;
+  }
+}
+
 @font-face {
   font-family: "thunder";
   src: local("thunder"), url('/fonts/thunder/Thunder-BoldLC.ttf');
