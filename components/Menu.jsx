@@ -84,7 +84,7 @@ function Menu() {
                 {!open && <p className="p-4 text-[#00000080] text-3xl font-thunder-medium">UI/UX DESIGN · CREATIVE DIRECTION</p>}
 
                 <div className={clsx("p-4", { "hidden": open == 1 })}>
-                    <a className="block w-3/6 pt-3 py-2 rounded-full text-3xl font-thunder-medium bg-cap-acid text-center" href="mailto:andrea.cappellari15@gmail.com">EMAIL ME</a>
+                    <a className="block w-3/6 pt-3 py-2 rounded-full text-3xl font-thunder-medium bg-cap-acid text-center" href="mailto:andrea.cappellari15@gmail.com" target="_blank">EMAIL ME</a>
                 </div>
             </div>
 
